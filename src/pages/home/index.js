@@ -14,6 +14,7 @@ class Home extends Component {
     return (
       <div className="P-home">
         <h1>Home page</h1>
+        <p>test</p>
       </div>
     )
   }
