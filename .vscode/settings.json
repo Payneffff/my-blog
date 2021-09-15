@@ -1,0 +1,18 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // 这里也可以使用 "editor.defaultFormatter": "esbenp.prettier-vscode"，但是要保证安装了prettier插件
+    // 这样使用快捷键格式化 command + k \ command + f，可以进行选择部分代码进行格式化
+  }
