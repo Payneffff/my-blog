@@ -16,6 +16,7 @@ class Home extends Component {
         <h1>Home page</h1>
         <p>liupf test</p>
         <p>test</p>
+        <p>test github push</p>
       </div>
     )
   }
